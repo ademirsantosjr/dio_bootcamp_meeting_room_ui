@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'rooms', pathMatch: 'full' },
   { path: 'rooms', component: RoomListComponent },
   { path: 'add', component: CreateRoomComponent },
-  { path: 'update', component: UpdateRoomComponent },
+  { path: 'update/:id', component: UpdateRoomComponent },
   { path: 'details/:id', component: RoomDetailsComponent },
 ];
 

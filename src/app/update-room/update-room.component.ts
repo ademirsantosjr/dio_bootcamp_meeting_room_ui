@@ -46,5 +46,4 @@ export class UpdateRoomComponent implements OnInit {
   goToList() {
     this.router.navigate(['/rooms']);
   }
-
 }

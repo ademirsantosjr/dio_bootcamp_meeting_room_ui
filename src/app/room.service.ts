@@ -27,7 +27,7 @@ export class RoomService {
     return this.http.delete(`${this.baseUrl}/${id}`, {responseType: 'text'});
   }
 
-  getRoomList(): Observable<any> {
+  getRoomList() : Observable<any> {
     return this.http.get(`${this.baseUrl}`);
   }
 }
